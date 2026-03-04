@@ -1,0 +1,18 @@
+# ============================================================
+# .gitignore
+# ============================================================
+# This file tells Git which files to never upload to GitHub.
+# Any file or folder listed here will be ignored by Git,
+# even if you accidentally try to add it.
+# ============================================================
+
+# Streamlit secrets — contains API keys, never share this!
+.streamlit/secrets.toml
+
+# Python cache files — these are auto-generated and not needed
+__pycache__/
+*.pyc
+
+# Virtual environment folder (if you use one)
+venv/
+.env
